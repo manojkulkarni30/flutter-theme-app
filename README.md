@@ -1,16 +1,36 @@
 # flutter_theme_app
 
-A new Flutter project.
+A simple Flutter example showing how to implement light and dark themes using:
 
-## Getting Started
+- the system-based approach (follow system appearance), and
+- a manual in-app toggle (switch theme from inside the app).
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Automatic system theme detection (light/dark).
+- Manual toggle to override system theme.
+- Material 3 compatible theming with ColorScheme usage.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Quick start
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repo.
+2. Run `flutter pub get`.
+3. Run the app on a device or emulator: `flutter run`.
+
+## Video tutorial
+
+Watch the step-by-step walkthrough for this implementation:
+
+- Video: [🌗 Light & Dark Theme in Flutter | Flutter Tutorial 2025](https://youtu.be/wucgiFHv6sw)
+- Channel: [Manoj Kulkarni](https://www.youtube.com/c/ManojKulkarni30?sub_confirmation=1)
+
+## Documentation & References
+
+- ColorScheme (Flutter API): https://api.flutter.dev/flutter/material/ColorScheme-class.html
+- ThemeData (Flutter API): https://api.flutter.dev/flutter/material/ThemeData-class.html
+- Material 3 / Color System: https://m3.material.io/
+
+## Notes
+
+- The app demonstrates how to create ThemeData from ColorScheme so your app can be updated for Material 3 color systems.
+- Replace the video/channel placeholders above with your actual YouTube links if needed.
